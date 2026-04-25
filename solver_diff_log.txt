@@ -1,0 +1,17 @@
+A layers: 48, B layers: 48, Last layer: 85
+Data shape: X=torch.Size([10000, 48]), y=torch.Size([10000, 1])
+
+Hungarian pairing MSE tests:
+  res_relu: MSE=0.843073
+  res_relu_post: MSE=0.902925
+  res_tanh: MSE=1.099328
+  res_none: MSE=0.956009
+  mlp_relu: MSE=0.918534
+  mlp_tanh: MSE=0.918695
+  mlp_none: MSE=0.918702
+
+Launching 7 block-function workers in parallel...
+A layers: 48, B layers: 48, Last layer: 85
+Data shape: X=torch.Size([10000, 48]), y=torch.Size([10000, 1])
+/home/linuxbrew/.linuxbrew/lib/python3.14/multiprocessing/resource_tracker.py:396: UserWarning: resource_tracker: There appear to be 5 leaked semaphore objects to clean up at shutdown: {'/mp-h816rcmv', '/mp-g137u2s5', '/mp-_kcuh_31', '/mp-mctxjzuz', '/mp-x0usyjm0'}
+  warnings.warn(
